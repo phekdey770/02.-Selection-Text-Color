@@ -1,0 +1,21 @@
+.w3rcontainer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+::selection {
+    background: orange;
+    color: black;
+}
+
+.custom-text-selection {
+    padding-left: 10px;
+}
+
+.custom-text-selection::selection {
+    background: green;
+    color: white;
+}
